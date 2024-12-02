@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="strokeColor">#D32F2F</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="thirddaryTextColor">#847F7F</color>
+    <color name="recyclerBackgroundColor">#E8EAF6</color>
+    <color name="fabBackgroundColor">#3D4EB1</color>
+    <color name="fBackgroundColor">#4DC0FF</color>
+    <color name="fabRippleColor">#C5CAE9</color>
+
+</resources>

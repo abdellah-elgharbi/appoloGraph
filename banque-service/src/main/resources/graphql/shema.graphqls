@@ -1,0 +1,37 @@
+enum TypeCompte {
+  COURANT
+  EPARGNE
+}
+
+type Query {
+  allComptes: [Compte]
+  compteById(id: ID!): Compte
+  totalSolde: SoldeStats
+  findByType(type: TypeCompte!): [Compte]
+
+}
+
+type Compte {
+  id: ID
+  solde: Float
+  dateCreation: String
+  type: TypeCompte
+}
+
+type Mutation {
+  saveCompte(compte: CompteInput): Compte
+  deleteCompte(id: ID!): String
+
+}
+
+input CompteInput {
+  solde: Float
+  dateCreation: String
+  type: TypeCompte
+}
+
+type SoldeStats {
+  count: Int
+  sum: Float
+  average: Float
+}
